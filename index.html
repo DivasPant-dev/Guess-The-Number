@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head-div">
+            <h1 class="h1">
+                Guess the number and win MONEY
+            </h1>
+
+            <h2 class="h2">
+                Guess Between 1 and 50
+            </h2>
+
+            <h2 class="h2" id="h2">
+                (Ensure to Refresh the page after each guess)
+            </h2>
+
+            <button id="refresh">
+                Refresh
+            </button>
+        </div>
+
+        <div class="input-div">
+            <input id="input" type="number" min="1" max="50">
+            <button onclick="getValue()">
+                Check
+            </button>
+        </div>
+
+        <div class="price-div">
+            <h1 class="price">
+                
+            </h1>
+        </div>
+    </div>
+    <footer>
+        This Website is the creation of 'Divas Pant'
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
